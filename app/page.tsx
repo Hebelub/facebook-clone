@@ -1,9 +1,21 @@
+import Header from '@/components/Header'
 import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main>
-      <h1>Lets build Facebook</h1>
-    </main>
+
+    <div>
+      {/* Header */}
+      <Header />
+
+      <main>
+        {/* Sidebar */}
+        {/* Feed */}
+        {/* Widgets */}
+
+      </main>
+    </div>
+
+
   )
 }
