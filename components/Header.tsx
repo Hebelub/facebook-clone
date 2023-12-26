@@ -1,5 +1,21 @@
 import React from 'react'
 import Image from 'next/image'
+import { Chat } from 'openai/resources/index.mjs'
+import Home from '@/app/page'
+import {
+    BellIcon,
+    ChatBubbleLeftRightIcon,
+    ChevronDownIcon,
+    HomeIcon,
+    UserGroupIcon,
+    Squares2X2Icon,
+} from '@heroicons/react/24/solid';
+import {
+    FlagIcon,
+    PlayIcon,
+    MagnifyingGlassIcon,
+    ShoppingCartIcon,
+} from '@heroicons/react/24/outline';
 
 function Header() {
     return (
@@ -15,6 +31,10 @@ function Header() {
                     layout="fixed" 
                     alt={''} 
                 />
+                <div>
+                    <MagnifyingGlassIcon />
+                    <input type="text" placeholder="Search Facebook" />
+                </div>
             </div>
 
             {/* Center */}
